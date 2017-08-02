@@ -16,10 +16,7 @@ If need to deploy jenkins with tomcat:
 Now Tomcat is used for my proj and runs on 8080 so if want to run jenkins standalone and want to execute on another port type below command
 java -jar jenkins.war --httPort=9090
 
-Jenkins User:
-seema/password/seemasharafat@gmail.com
 
-jenkins pwd:db5220a793274f859f0965deb060d097
 
 
 
