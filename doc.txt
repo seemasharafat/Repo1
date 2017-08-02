@@ -23,7 +23,7 @@ jenkins pwd:db5220a793274f859f0965deb060d097
 
 
 
-+====================GIT==============
++====================GIT===================
 1.downlaod and install
 to check on cmd
 git --version:
