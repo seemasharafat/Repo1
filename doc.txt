@@ -1,0 +1,33 @@
+Steps to instll Jenkins
+1.download stablished jenkins from http://jenkins.io
+2.extract folder and run the installer
+3.Installer will install the jenkins in Program Files in windows and add all files in Jenkins folder inside it.
+4.Copy the jenkins.war file from this and place into another directly of system
+5.Now go to cmd and go to folder where jenkins.war is copied and then copy below command
+	java -jar jenkins.war 
+6.open browser and type below url
+http://localhost:8080/
+it wil ask u to authenticate jenkins	
+
+If need to deploy jenkins with tomcat:
+1.copy jenkins.war in webapp folder and run startup.batch file frmo bi folder
+2.type http://localhost:8080/jenkins
+
+Now Tomcat is used for my proj and runs on 8080 so if want to run jenkins standalone and want to execute on another port type below command
+java -jar jenkins.war --httPort=9090
+
+Jenkins User:
+seema/password/seemasharafat@gmail.com
+
+jenkins pwd:db5220a793274f859f0965deb060d097
+
+
+
++====================GIT==============
+1.downlaod and install
+to check on cmd
+git --version:
+2.add your proect to git
+ 2.a.Create one folder inside c://nodeEx/angular2Proj/myfirstgitproject
+ 2.b.go to cmd and go to this folder
+ 3.type git init and hit enter
